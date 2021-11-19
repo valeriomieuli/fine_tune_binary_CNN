@@ -1,4 +1,4 @@
-# fine_tune_binary_CNN
+# finetune_CNN
 
 
 All the code in within the train-test.ipynb notebook.
