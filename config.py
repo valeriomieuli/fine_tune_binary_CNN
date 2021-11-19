@@ -1,0 +1,14 @@
+MOUNT_DIR = "/mount_point"
+MAIN_DIR = os.path.join(MOUNT_DIR, "MyDrive", "calypsoai_challenge")
+ZIPPED_DATA_PATH = os.path.join(MAIN_DIR, "vehicles.zip")
+DATA_DIR = ZIPPED_DATA_PATH.replace(".zip", "")
+TARGET_SIZE = (256,256)
+CROP_SIZE = (224, 224)
+IMAGENET_MEAN = [0.485, 0.456, 0.406]
+IMAGENET_STD = [0.229, 0.224, 0.225]
+TRAIN_SPLIT = 0.6
+JITTER = 0.2
+DEGREES = 10
+BATCH_SIZE = 16
+LR_LIST = [0.001, 0.0001]
+N_EPOCHS = 5
